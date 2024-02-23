@@ -1,0 +1,77 @@
+$color-normal: #A8A77A
+$color-fire: #EE8130
+$color-water: #6390F0
+$color-grass: #7AC74C
+$color-flying: #A98FF3
+$color-fighting: #C22E28
+$color-poison: #A33EA1
+$color-electric: #F7D02C
+$color-ground: #E2BF65
+$color-rock: #B6A136
+$color-psychic: #F95587
+$color-ice: #96D9D6
+$color-bug: #A6B91A
+$color-ghost: #735797
+$color-steel: #B7B7CE
+$color-dragon: #6F35FC
+$color-dark: #705746
+$color-fairy: #D685AD
+
+body
+  font-family: Montserrat
+
+main
+  width: 80%
+  margin: auto
+
+  #content
+    display: flex
+    flex-wrap: wrap
+    gap: 50px
+    justify-content: center
+
+    .pokemonBox
+      img
+        max-width: 200px
+      .pokemonInfo
+        .type
+          width: 100px
+          border-radius: 5px
+          padding: 2px 5px
+          text-align: center
+          &.normal
+            background-color: $color-normal
+          &.fire
+            background-color: $color-fire
+          &.water
+            background-color: $color-water
+          &.grass
+            background-color: $color-grass
+          &.flying
+            background-color: $color-flying
+          &.fighting
+            background-color: $color-fighting
+          &.poison
+            background-color: $color-poison
+          &.electric
+            background-color: $color-electric
+          &.ground
+            background-color: $color-ground
+          &.rock
+            background-color: $color-rock
+          &.psychic
+            background-color: $color-psychic
+          &.ice
+            background-color: $color-ice
+          &.bug
+            background-color: $color-bug
+          &.ghost
+            background-color: $color-ghost
+          &.steel
+            background-color: $color-steel
+          &.dragon
+            background-color: $color-dragon
+          &.dark
+            background-color: $color-dark
+          &.fairy
+            background-color: $color-fairy
